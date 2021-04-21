@@ -1,0 +1,28 @@
+Risolvere il seguente problema di ottimizzazione mediante un algoritmo ricorsivo:
+Sapendo che nel database sono presenti 3 città, supponiamo che un tecnico debba compiere delle analisi
+tecniche della durata di un giorno in ciascuna città. Le analisi hanno un costo per ogni giornata,
+determinato dalla somma di due contributi: un fattore costante (di valore 100) ogniqualvolta il tecnico si
+deve spostare da una città ad un’altra in due giorni successivi, ed un fattore variabile pari al valore
+numerico dell’umidità della città nel giorno considerato. Si trovi la sequenza delle città da visitare nei
+primi 15 giorni del mese selezionato, tale da minimizzare il costo complessivo rispettando i seguenti
+vincoli:
+- Nei primi 15 giorni del mese, tutte le città devono essere visitate almeno una volta
+- In nessuna città si possono trascorrere più di 6 giornate (anche non consecutive)
+- Scelta una città, il tecnico non si può spostare prima di aver trascorso 3 giorni consecutivi.
+
+
+INPUT:
+	- database città
+	- spostamento s = 100 + umidità città di destinazione
+	- primi 15 giorni tutte le città visitate almeno una volta
+	- numero di giorni in una città < 6 (anche non consecutivi) && > 3 
+	
+
+OUTPUT:
+ 	- lista di città e numero di giorni che è stato in quella città
+ 		*costo spostamento minimo
+ 		* 3 < giorni < 6
+ 		 
+	
+	
+	
